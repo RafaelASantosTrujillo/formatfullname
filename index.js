@@ -1,4 +1,4 @@
-function formatFullName(fullName) {
+function formatFullName(fullName){
     return fullName.toLowerCase().replace(/\b\w/g, (l) => l.toUpperCase());
-}
-
+};
+module.exports = formatFullName;
